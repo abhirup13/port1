@@ -1,0 +1,133 @@
+.top {
+
+  background-image: linear-gradient(#feb72b, #fbd46d,#faecc1);
+  text-align: center;
+  font-family: "montserrat",sans-serif;
+  font-weight:400;
+  font-size: 130%;
+  padding: 1em;
+  width: auto;
+  height: 300px;
+  top: 20px;
+  color: #000000;
+
+}
+
+.header{
+/* background-image: linear-gradient(#feb72b, #fbd46d,#faecc1);*/
+  background-color: #feb72b;
+  height: 60px;
+  width: auto;
+  top: 20px;
+}
+
+.headermenu{
+
+    padding-left: 800px;
+    height: 80px;
+    padding-top: 13px;
+    padding-bottom: 5px;
+    font-family: "montserrat", sans-serif;
+    font-size:90%;
+    font-weight: 20;
+    display: inline-block;
+
+
+
+    }
+a{
+  text-decoration: none;
+  color:inherit;
+}
+
+a:hover{
+  background-color: #fa7d09;
+}
+
+.srv1 {
+    width: 300px;
+    height: 300px;
+    padding-left: 60px;
+    padding-right: 60px;
+    position: relative;
+    bottom: 1px;
+    position: relative; left: 40px;
+
+}
+
+.column {
+
+  float: left;
+  width: auto;
+  padding: 1px;
+  padding-top: 1px;
+
+
+}
+
+
+.row::after {
+
+  content: "";
+  clear: both;
+  display: table;
+  margin-left: 40px;
+  margin-right: 20px;
+
+
+
+
+}
+
+.grad2{
+  height:10px;
+  background-image: linear-gradient(#ffffff, #ffffff);
+  position:relative;
+  right: 3px;
+  }
+
+hr{
+  width: 100%;
+  border-style: solid none none;
+  border-width: 0.01px;
+  border-color: #feb72b;
+  background-color: #faecc1;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+
+p{
+
+  margin-left: 50px;
+  margin-top: 0px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-right: 10px;
+  height: 10px;
+  font-family: "montserrat", sans-serif;
+  font-weight:200;
+  font-size: 130%;
+  width: auto;
+  display: inline-block;
+}
+
+h1{
+  font-family: "montserrat", sans-serif;
+  font-weight:1000;
+  font-size: 200%;
+  width: auto;
+  display: inline-block;
+}
+
+.services-text{
+  position: relative;
+      bottom: 60px;
+}
+
+.light{
+  font-weight: 100;
+  font-size: 100%;
+  font-family: "montserrat",sans-serif;
+  color: #292421;
+}
